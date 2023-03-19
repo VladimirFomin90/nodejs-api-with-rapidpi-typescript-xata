@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Vladimir-Fomin-s-workspace-dd9j5a.us-east-1.xata.sh/db/nodejs-api-with-rapidpi-typescript-xata",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
