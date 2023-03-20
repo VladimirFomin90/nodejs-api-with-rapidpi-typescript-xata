@@ -6,10 +6,10 @@ POST http://localhost:3003/api/jobs
 content-type: application/json
 
 {
-    "company": "UAR",
-    "geography": "Budju, Africa",
-    "jobLink": "https://devrelcareers.com/job/823115-product-marketing-manager-codemagic",
-    "title": "CEO"
+    "company": "Temirtau23",
+    "geography": "Budju, USA",
+    "jobLink": "https://devrelcareers.com/job/8",
+    "title": "Full Stack"
 }
 
 ### Put Job
@@ -21,5 +21,5 @@ content-type: application/json
 }
 
 ### Delete Job
-DELETE http://localhost:3003/api/jobs/rec_cgbkib93msn5f09ejc80
+DELETE http://localhost:3003/api/jobs/rec_cgc9e9qtft8hg0jj0lq0
 content-type: application/json

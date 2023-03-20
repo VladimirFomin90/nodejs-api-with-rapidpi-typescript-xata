@@ -1,1 +1,1 @@
-# nodejs-api-with-rapidpi-typescript-xata
+# nodejs-api-with-typescript-xata
