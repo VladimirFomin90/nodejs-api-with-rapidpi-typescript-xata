@@ -18,16 +18,22 @@ app.get('/api/jobs', async (req: Request, res: Response) => {
 
 app.post('/api/jobs', async (req: Request, res: Response) => {
     const job = req.body;
-    const createdJob = await xata.db.job.create(job)
+    const createdJob = await xata.db.job.create(job);
     res.json(createdJob);
 });
 
 app.put('/api/jobs/:id', async (req: Request, res: Response) => {
-    res.json({ msg: 'Put Job' });
+    const id = req.params.id;
+    const job = req.body;
+    const updatedJob = await xata.db.job.update(id, job);
+    res.json(updatedJob);
 });
 
 app.delete('/api/jobs/:id', async (req: Request, res: Response) => {
-    res.json({ msg: 'Delete Job' });
+    const id = req.params.id;
+    const deletedJob = await xata.db.job.delete(id);
+
+    res.json(deletedJob);
 });
 
 app.listen(port, () => {

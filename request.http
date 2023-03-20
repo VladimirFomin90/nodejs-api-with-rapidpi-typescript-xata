@@ -1,0 +1,25 @@
+### Get Jobs
+GET http://localhost:3003/api/jobs
+
+### Create Job
+POST http://localhost:3003/api/jobs
+content-type: application/json
+
+{
+    "company": "UAR",
+    "geography": "Budju, Africa",
+    "jobLink": "https://devrelcareers.com/job/823115-product-marketing-manager-codemagic",
+    "title": "CEO"
+}
+
+### Put Job
+PUT http://localhost:3003/api/jobs/rec_cgc8ln9fqf8i4gnel8e0
+content-type: application/json
+
+{
+    "company": "ITVDN33"
+}
+
+### Delete Job
+DELETE http://localhost:3003/api/jobs/rec_cgbkib93msn5f09ejc80
+content-type: application/json
